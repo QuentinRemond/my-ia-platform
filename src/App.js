@@ -10,8 +10,8 @@ import Preview from './components/Preview';
 function App() {
   return (
     <Auth0Provider
-      domain="YOUR_AUTH0_DOMAIN"
-      clientId="YOUR_AUTH0_CLIENT_ID"
+      domain="dev-nkxx5zndeyf121bp.us.auth0.com"
+      clientId="aJf0tUKvH3OYTG80bITaaEqFSpkS797o"
       redirectUri={window.location.origin}
     >
       <Router>
